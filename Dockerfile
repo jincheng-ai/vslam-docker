@@ -10,9 +10,6 @@ ENV ROS_DISTRO="melodic"
 
 ENV LANG=en_US.UTF-8 LANGUAGE=en_US:en LC_ALL=en_US.UTF-8
 
-ENV http_proxy  "http://10.1.80.160:7890"
-ENV https_proxy  "http://10.1.80.160:7890"
-
 # CUDA
 # RUN apt-get update && apt-get remove -y x264 libx264-dev
 # RUN apt-get install --assume-yes apt-utils
